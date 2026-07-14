@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(echo \"=== project skills ===\" && ls -1 \"C:/Users/natan/OneDrive/Desktop/alon gallery/.claude/skills\" 2>/dev/null || echo \"none in project\"; echo \"=== user skills ===\" && ls -1 \"C:/Users/natan/.claude/skills\" 2>/dev/null || echo \"none in user\")",
-      "Bash(echo \"=== all SKILL.md / skill dirs under .claude \\(user\\) ===\" && find \"C:/Users/natan/.claude\" -maxdepth 4 -iname \"*.md\" \\\\\\( -ipath \"*skill*\" -o -ipath \"*copywrit*\" -o -ipath \"*market*\" \\\\\\) 2>/dev/null | head -30; echo \"=== plugins dir ===\" && find \"C:/Users/natan/.claude/plugins\" -maxdepth 3 -type d 2>/dev/null | head -40; echo \"=== any dir mentioning writing/marketing/hebrew ===\" && find \"C:/Users/natan/.claude\" -maxdepth 4 -type d \\\\\\( -iname \"*writ*\" -o -iname \"*market*\" -o -iname \"*copy*\" -o -iname \"*hebrew*\" -o -iname \"*shiv*\" \\\\\\) 2>/dev/null | head)"
-    ]
-  }
-}
