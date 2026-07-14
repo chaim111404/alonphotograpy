@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>בלוג | Alon Gallery — טיפים לצילום נדל״ן</title>
+  <meta name="description" content="בלוג של אלון גלרי — טיפים מקצועיים לצילום צימרים ונדל״ן, אחורי הקלעים ועוד.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Alon Gallery">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:title" content="בלוג | Alon Gallery — טיפים לצילום נדל״ן">
+  <meta property="og:description" content="בלוג של אלון גלרי — טיפים מקצועיים לצילום צימרים ונדל״ן, אחורי הקלעים ועוד.">
+  <meta property="og:url" content="https://alonphotography.co.il/blog.html">
+  <meta property="og:image" content="https://alonphotography.co.il/images/hero-1.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="בלוג | Alon Gallery — טיפים לצילום נדל״ן">
+  <meta name="twitter:description" content="בלוג של אלון גלרי — טיפים מקצועיים לצילום צימרים ונדל״ן, אחורי הקלעים ועוד.">
+  <meta name="twitter:image" content="https://alonphotography.co.il/images/hero-1.jpg">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alonphotography.co.il/blog.html">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .blog-header { padding-top:calc(var(--nav-height)+5rem); padding-bottom:3rem; padding-left:clamp(1.5rem,6vw,5rem); padding-right:clamp(1.5rem,6vw,5rem); background:var(--bg-2); border-bottom:1px solid var(--border); }
+    .blog-grid { max-width:1300px; margin:0 auto; padding:4rem clamp(1.5rem,6vw,5rem); display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; }
+    .blog-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden; transition:all var(--transition); display:flex; flex-direction:column; }
+    .blog-card:hover { border-color:var(--border-gold); transform:translateY(-5px); box-shadow:var(--shadow-gold); }
+    .blog-card-img { aspect-ratio:16/9; overflow:hidden; }
+    .blog-card-img img { width:100%; height:100%; object-fit:cover; transition:transform 0.7s ease; }
+    .blog-card:hover .blog-card-img img { transform:scale(1.05); }
+    .blog-card-body { padding:1.8rem; flex:1; display:flex; flex-direction:column; }
+    .blog-cat { font-size:0.68rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent-gold); margin-bottom:0.8rem; }
+    .blog-title { font-family:var(--font-display); font-size:1.3rem; font-weight:400; line-height:1.3; margin-bottom:0.8rem; transition:color var(--transition); }
+    .blog-card:hover .blog-title { color:var(--accent-gold); }
+    .blog-excerpt { font-size:0.84rem; color:var(--text-muted); line-height:1.75; flex:1; margin-bottom:1.5rem; }
+    .blog-meta { display:flex; align-items:center; justify-content:space-between; font-size:0.75rem; color:var(--text-dim); border-top:1px solid var(--border); padding-top:1rem; }
+    .blog-read-more { color:var(--accent-gold); font-size:0.75rem; letter-spacing:0.08em; transition:gap var(--transition); display:flex; align-items:center; gap:0.4rem; }
+    .blog-read-more:hover { gap:0.7rem; }
+    @media(max-width:900px){.blog-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:600px){.blog-grid{grid-template-columns:1fr}}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "בית",
+      "item": "https://alonphotography.co.il/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "בלוג",
+      "item": "https://alonphotography.co.il/blog.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <nav class="nav" id="mainNav">
+  <a href="index.html" class="nav-logo" aria-label="Alon Gallery — דף הבית"><img class="logo-white" src="images/logo-white.png" alt="Alon Gallery" width="140" height="25"><img class="logo-dark" src="images/logo-dark.png" alt="Alon Gallery" width="140" height="25"></a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-spy="home" data-i18n="nav.home">בית</a></li>
+    <li><a href="index.html#services" data-spy="services" data-i18n="nav.services">שירותים</a></li>
+    <li><a href="index.html#portfolio" data-spy="portfolio" data-i18n="nav.gallery">גלריה</a></li>
+    <li><a href="index.html#contact" data-spy="contact" data-i18n="nav.contact">צור קשר</a></li>
+    <li class="nav-more">
+      <button class="nav-more-btn" aria-expanded="false" aria-haspopup="true"><span data-i18n="nav.more">עוד</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+      <div class="nav-more-menu">
+        <a href="index.html#about" data-spy="about" data-i18n="nav.about">אודות</a>
+        <a href="index.html#blog" data-spy="blog" data-i18n="nav.blog">בלוג</a>
+        <a href="faq.html" data-i18n="nav.faq">שאלות נפוצות</a>
+      </div>
+    </li>
+  </ul>
+  <div class="nav-actions">
+    <button class="lang-btn" aria-label="Switch language / החלפת שפה">EN</button>
+    <button class="theme-toggle" aria-label="מצב כהה או בהיר">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    <button class="nav-hamburger" aria-label="תפריט"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+  <div class="mobile-menu">
+  <button class="mobile-menu-close" aria-label="סגירת תפריט">✕</button>
+  <a href="index.html">בית</a>
+  <a href="index.html#services">שירותים</a>
+  <a href="index.html#portfolio">גלריה</a>
+  <a href="index.html#about">אודות</a>
+  <a href="index.html#blog">בלוג</a>
+  <a href="faq.html">שאלות נפוצות</a>
+  <a href="index.html#contact">צור קשר</a>
+</div>
+
+  <div class="blog-header">
+    <div class="section-label">מחשבות ותובנות</div>
+    <h1 class="section-title" style="margin-bottom:0.5rem">ה<em>בלוג</em></h1>
+    <p class="section-subtitle">טיפים, אחורי הקלעים ומדריכים. איך למכור יותר עם תמונות.</p>
+  </div>
+
+  <div class="blog-grid">
+    <!-- פוסטים סטטיים — שנה את הכותרות, תמונות ותוכן לשלך -->
+    <!-- כדי להוסיף פוסט: העתק בלוק blog-card ושנה את הפרטים -->
+
+    <article class="blog-card reveal">
+      <div class="blog-card-img">
+        <!-- החלף src בתמונת פוסט שלך -->
+        <img src="images/gallery-07.jpg" alt="צילום צימרים" loading="lazy">
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-cat">טיפים לצילום</div>
+        <!-- שנה את הכותרת -->
+        <h2 class="blog-title">5 טיפים לצילום צימר שימשוך יותר הזמנות</h2>
+        <!-- שנה את הסיכום -->
+        <p class="blog-excerpt">תמונה טובה יכולה להכפיל הכנסות של צימר. חמישה טיפים לפני שמעלים תמונות לאתר.</p>
+        <div class="blog-meta">
+          <!-- שנה תאריך -->
+          <span>15 ינואר 2025</span>
+          <a href="#" class="blog-read-more">קרא עוד →</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="blog-card reveal delay-1">
+      <div class="blog-card-img">
+        <img src="images/gallery-08.jpg" alt="אור טבעי" loading="lazy">
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-cat">אחורי הקלעים</div>
+        <h2 class="blog-title">למה אור הבוקר הוא הכלי הכי טוב שלי</h2>
+        <p class="blog-excerpt">אני תמיד מצלם בשעת הזהב. הנה למה השעתיים אחרי הזריחה הן הזמן הכי טוב לצילום פנים.</p>
+        <div class="blog-meta"><span>3 פברואר 2025</span><a href="#" class="blog-read-more">קרא עוד →</a></div>
+      </div>
+    </article>
+
+    <article class="blog-card reveal delay-2">
+      <div class="blog-card-img">
+        <img src="images/gallery-09.jpg" alt="נדל״ן" loading="lazy">
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-cat">נדל״ן</div>
+        <h2 class="blog-title">כמה שווה תמונה מקצועית בעת מכירת נכס?</h2>
+        <p class="blog-excerpt">נכס עם צילום מקצועי נמכר מהר יותר ובמחיר גבוה יותר. בואו נכנס למספרים.</p>
+        <div class="blog-meta"><span>20 פברואר 2025</span><a href="#" class="blog-read-more">קרא עוד →</a></div>
+      </div>
+    </article>
+
+    <article class="blog-card reveal delay-3">
+      <div class="blog-card-img">
+        <img src="images/gallery-10.jpg" alt="צפון הארץ" loading="lazy">
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-cat">השראה</div>
+        <h2 class="blog-title">הצימרים היפים ביותר שצילמתי בצפון</h2>
+        <p class="blog-excerpt">סיור ויזואלי בחמישה מהפרויקטים האהובים עליי בצפון.</p>
+        <div class="blog-meta"><span>10 מרץ 2025</span><a href="#" class="blog-read-more">קרא עוד →</a></div>
+      </div>
+    </article>
+
+    <article class="blog-card reveal delay-4">
+      <div class="blog-card-img">
+        <img src="images/gallery-11.jpg" alt="סטיילינג" loading="lazy">
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-cat">מדריכים</div>
+        <h2 class="blog-title">איך להכין את הנכס לצילום — checklist מלא</h2>
+        <p class="blog-excerpt">הרשימה שאני שולח לכל לקוח לפני צילום. שומרים — חוסך זמן ומשפר תוצאות.</p>
+        <div class="blog-meta"><span>5 אפריל 2025</span><a href="#" class="blog-read-more">קרא עוד →</a></div>
+      </div>
+    </article>
+
+    <article class="blog-card reveal delay-5">
+      <div class="blog-card-img">
+        <img src="images/gallery-12.jpg" alt="Airbnb" loading="lazy">
+      </div>
+      <div class="blog-card-body">
+        <div class="blog-cat">טיפים לצילום</div>
+        <h2 class="blog-title">צילום לאירבי — מה שונה מצילום רגיל?</h2>
+        <p class="blog-excerpt">Airbnb ו-Booking דורשים תמונות שמעבירות חוויה, לא רק מראה. הנה ההבדלים.</p>
+        <div class="blog-meta"><span>1 מאי 2025</span><a href="#" class="blog-read-more">קרא עוד →</a></div>
+      </div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-grid"><div class="footer-col"><div class="footer-brand" aria-label="Alon Gallery"><img class="logo-white" src="images/logo-white.png" alt="Alon Gallery" width="170" height="31"><img class="logo-dark" src="images/logo-dark.png" alt="Alon Gallery" width="170" height="31"></div><p class="footer-desc">צלם מקצועי לצימרים ונדל״ן בצפון הארץ.</p></div><div class="footer-col"><div class="footer-col-title">ניווט</div><ul><li><a href="index.html">בית</a></li><li><a href="gallery.html">גלריה</a></li><li><a href="about.html">אודות</a></li><li><a href="blog.html">בלוג</a></li><li><a href="contact.html">צור קשר</a></li><li><a href="faq.html">שאלות נפוצות</a></li></ul></div><div class="footer-col"><div class="footer-col-title">שירותים</div><ul><li><a href="tzimmer-photography.html">צילום צימרים</a></li><li><a href="real-estate-photography.html">צילום נדל״ן</a></li></ul></div><div class="footer-col"><div class="footer-col-title">צור קשר</div><ul><li><a href="tel:+972547674646">054-767-4646</a></li><li><a href="mailto:alonart18@gmail.com">alonart18@gmail.com</a></li></ul></div></div>
+    <div class="footer-bottom"><span class="footer-copy">© 2025 Alon Gallery. כל הזכויות שמורות.</span><div class="footer-legal"><a href="terms.html">תנאי שימוש</a><a href="privacy.html">פרטיות</a></div></div>
+  </footer>
+  <a href="https://wa.me/972547674646" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+  <script src="js/main.js"></script>
+</body>
+</html>
