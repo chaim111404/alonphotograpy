@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "alon-gallery",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["servor", ".", "index.html", "8123"],
+      "port": 8123
+    }
+  ]
+}
